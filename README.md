@@ -1,7 +1,8 @@
-Security Sensor Lab
-Hands-on SOC lab with Zeek, Suricata, traffic generation, and analysis write-ups.
+Security Sensor Lab  
+  
+Hands-on SOC sensor environment with Zeek, Suricata, Logstash, and real traffic analysis.
 
-A hands-on SOC lab built to practice real blue-team skills using Zeek, Suricata, and simulated network traffic. This project captures real logs, screenshots, errors, fixes, and analysis similar to what analysts handle in an actual SOC environment.
+This repo documents a functioning SOC sensor environment built on Ubuntu VMs. While the traffic is generated in a controlled lab, the tools are real, the logs are real, and the visibility is real. Zeek, Suricata, and Logstash are configured to monitor live traffic from real system activity — DNS queries, HTTP sessions, DHCP leases, Nmap scans, and curl probes. This setup reflects how a production SOC ingests and analyzes network data, with screenshots and markdown posts highlighting protocol visibility, anomaly detection, and troubleshooting.
 
 Purpose
 This lab demonstrates the ability to:
